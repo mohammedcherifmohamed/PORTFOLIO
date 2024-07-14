@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+height: 100vh;    
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background: url(imgs/main02.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 4;
+}
+
+header{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main::before{
+    content: "";
+    background-color: rgba(9, 9, 9, 0.431);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1 ;
+}
+ul{
+    padding: 0 30px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+ul li{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+    border: solid 1px black;
+    border-radius: 50%;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.main_info{
+    color: #ffff;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    position: absolute;
+    right: 35%;
+    top: 30%;
+}
+.my_pic{
+    height: 310px;
+    width: 310px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.my_pic img{
+    filter: blur(1px) grayscale(1);
+    width: 100%;
+    height: 100%;
+    transition: ease .8s;
+
+}
+.my_pic img:hover{
+    filter: blur(0) grayscale(0);
+    transition: ease .8s;
+}
+.txt_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_info p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.txt_info h1{
+    font-size: 32px;
+    font-weight:bold;
+}
+
+.txt_info h3{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 19px;
+}
+.icons{
+    margin-top: 25px;
+}
+.icons button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: solid black 1px;
+    border-radius: 12px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+#contact_btn{
+    background-color: black;
+    margin-left: 18px;
+}
+.links{
+    border: solid 1px black;
+}
+
+/* experience section */
+
+.experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+    background-color: rgb(236, 236, 236);
+}
+.header{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.header h5{
+    font-size: 15px;
+    color: rgb(105, 105, 105);
+}
+.header h1{
+    font-size: 35px;
+}
+.experience_container{
+    display: flex;
+    gap: 20px;
+
+}
+.front_back{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: solid 1px black;
+    border-radius: 15px;
+    align-items: center;
+    gap: 20px;
+    width: 450px;
+}
+
+#skills{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.skill{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 8px;
+}
+.skill i {
+    margin-top: 3px;
+}
+.details h6{
+    color: rgb(105, 105, 105);
+    font-weight: 200;
+    font-size: 17px;
+}
+/* ________ PROJECTS SECTION __________ */
+ .projects{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.project{
+    height: 390px;
+    width: 300px;
+    border: solid 1px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    
+}
+#projects{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+.project img{
+    border-radius: 12px;
+    height: 70%;
+    width: 90%;
+}
+.project_links{
+    margin-top: 25px;
+}
+.project_links a{
+    color: black;
+    padding: 8px 12px;
+    border: solid 1px;
+    border-radius: 20px;
+}
+
+/*
+#projects{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.project{
+    overflow: hidden;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+
+}
+.project_img{
+    height: 100%;
+    width: 100%;
+}
+.project_img img{
+    border-radius: 10px;
+    height: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+}
+
+.layer{
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: -100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.414) , #03030398);
+
+}
+.layer i{
+    margin-bottom: 25px;
+    margin-top: 7px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.layer i , .layer h1{
+    margin-left: 25px;
+    
+}
+.project:hover  .layer {
+    bottom: 0;
+    transition: .6s ;
+
+} */
+
+/* _________  CONTACT SECTION _________ */
+.contact_section{
+    background-color: rgb(246, 246, 246);
+
+    height: 100vh;
+    display: flex;
+    gap:150px ;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact{
+
+}
+.contact_card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    border-radius: 8px;
+    margin: 15px;
+    width: 310px;
+    height: 200px;
+    box-shadow: 0px 0px 50px rgba(127, 125, 125, 0.523);
+
+}
+.contact_card p {
+    margin: 10px;
+}
+
+/* input fields */
+
+.input_form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+label{
+    font-size: 18px;
+    text-align: left;
+    margin: 0 0 5px 5px;
+}
+.input input ,.input textarea {
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    color: rgb(85, 85, 85);
+    border: solid  lightgray 1px;
+    padding: 3px 15px;
+    font-size: 15px;
+}
+
+.input textarea {
+    height: 150px;
+    padding: 15px;
+}
+.send_btn{
+    border: none;
+    background-color: rgba(36, 36, 36, 0.936);
+    color: #dadada;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
