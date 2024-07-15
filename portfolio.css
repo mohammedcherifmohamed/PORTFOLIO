@@ -3,6 +3,7 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    
 }
 
 body{
@@ -25,9 +26,42 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.Home{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;    
+    color: #ffff;
+}
+.Home h1{
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: solid 1px ;
+}
+.Home h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.Home h3{
+    font-size: 25px;
+    font-weight: 400;
+}    
+.Home button{
+    border: none;
+    background-color: gold;
+    font-weight: 600;
+    color: #ffffffef;
+    padding: 10px 14px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
 .main::before{
     content: "";
-    background-color: rgba(9, 9, 9, 0.431);
+    background-color: rgba(9, 9, 9, 0.697);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -188,46 +222,97 @@ ul li{
     font-size: 17px;
 }
 /* ________ PROJECTS SECTION __________ */
- .projects{
-    /* height: 100vh; */
+ .projects_section{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 50px;
-
+    padding: 50px 0 150px 0;
+}
+.projects-container {
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+    /* overflow: hidden; */
+    position: relative;
+    border: solid;
 }
 
-.project{
-    height: 390px;
-    width: 300px;
+#projects {
+    /* height: 350px; */
+    display: flex;
+    flex-wrap: wrap;
+    transition: transform 0.5s ease; 
+    
+}
+
+.project {
+    background-color: rgb(248, 245, 245);
+    width: 250px;
+    height: 350px;
     border: solid 1px;
     text-align: center;
     padding: 15px;
+    margin-right: 20px; 
     border-radius: 12px;
-    
-}
-#projects{
-    flex-wrap: wrap;
-    display: flex;
-    gap: 20px;
-}
-.project img{
+    box-sizing: border-box; 
+  }
+  .project .img{
+    height: 60%;
+    width: 100%;
+  }
+  .project img {
     border-radius: 12px;
-    height: 70%;
-    width: 90%;
-}
-.project_links{
-    margin-top: 25px;
-}
-.project_links a{
+    height: 100%;
+    width: 100%;
+  }
+
+  .project h1 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .project_links {
+    margin-top: auto;
+  }
+
+  .project_links a {
+    display: block;
+    margin-top: 10px;
     color: black;
     padding: 8px 12px;
     border: solid 1px;
     border-radius: 20px;
-}
+    text-decoration: none;
+  }
 
-/*
+  .scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 1;
+  }
+
+  .scroll-btn.left {
+    left: 10px;
+  }
+
+  .scroll-btn.right {
+    right: 10px;
+  }
+/* {
 #projects{
     width: 50%;
     display: flex;
@@ -283,7 +368,7 @@ ul li{
     bottom: 0;
     transition: .6s ;
 
-} */
+} }*/
 
 /* _________  CONTACT SECTION _________ */
 .contact_section{
@@ -312,10 +397,21 @@ ul li{
     box-shadow: 0px 0px 50px rgba(127, 125, 125, 0.523);
 
 }
-.contact_card p {
-    margin: 10px;
+.contact_card .info .bx-right-arrow-alt {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
 }
+.contact_card p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.info i{
+    font-size: 27px ;
 
+}
 /* input fields */
 
 .input_form{
@@ -355,4 +451,6 @@ label{
     padding: 8px 15px;
     border-radius: 8px;
     cursor: pointer;
+    width: auto; /* Make the button width auto */
+    align-self:start;
 }
