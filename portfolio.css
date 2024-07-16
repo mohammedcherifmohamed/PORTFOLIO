@@ -3,7 +3,6 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-    
 }
 
 body{
@@ -36,6 +35,7 @@ header{
     color: #ffff;
 }
 .Home h1{
+    letter-spacing: 4px;
     font-size: 50px;
     font-weight: bold;
     border-bottom: solid 1px ;
@@ -46,7 +46,10 @@ header{
 }
 .Home h3{
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 600;
+    font-style: italic; 
+    letter-spacing: 2px;
+
 }    
 .Home button{
     border: none;
@@ -223,7 +226,6 @@ ul li{
 }
 /* ________ PROJECTS SECTION __________ */
  .projects_section{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,7 +239,6 @@ ul li{
     margin: 20px auto;
     /* overflow: hidden; */
     position: relative;
-    border: solid;
 }
 
 #projects {
@@ -249,13 +250,13 @@ ul li{
 }
 
 .project {
-    background-color: rgb(248, 245, 245);
+    box-shadow: 0px 0px 50px rgba(95, 95, 95, 0.468);
     width: 250px;
     height: 350px;
-    border: solid 1px;
     text-align: center;
     padding: 15px;
     margin-right: 20px; 
+    margin-top: 15px;
     border-radius: 12px;
     box-sizing: border-box; 
   }
@@ -312,77 +313,35 @@ ul li{
   .scroll-btn.right {
     right: 10px;
   }
-/* {
-#projects{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.project{
-    overflow: hidden;
-    position: relative;
-    height: 250px;
-    width: 250px;
-    cursor: pointer;
 
-}
-.project_img{
-    height: 100%;
-    width: 100%;
-}
-.project_img img{
-    border-radius: 10px;
-    height: auto;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    background-position: center;
-}
-
-.layer{
-    color: #ffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    bottom: -100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.414) , #03030398);
-
-}
-.layer i{
-    margin-bottom: 25px;
-    margin-top: 7px;
-    cursor: pointer;
-    font-size: 20px;
-}
-.layer i , .layer h1{
-    margin-left: 25px;
-    
-}
-.project:hover  .layer {
-    bottom: 0;
-    transition: .6s ;
-
-} }*/
+  /* ___________________________________________________________________________________________________________________________ */
+  /* ___________________________________________________________________________________________________________________________ */
+  /* ___________________________________________________________________________________________________________________________ */
+  /* ___________________________________________________________________________________________________________________________ */
 
 /* _________  CONTACT SECTION _________ */
 .contact_section{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding: 110px 55px;
     background-color: rgb(246, 246, 246);
 
-    height: 100vh;
-    display: flex;
-    gap:150px ;
+}
+.contact_container{
+    display: grid;
+    text-align: center;
     align-items: center;
-    justify-content: center;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+    width: 100%;
 
 }
 .contact{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
 }
 .contact_card{
     text-align: center;
@@ -395,6 +354,13 @@ ul li{
     width: 310px;
     height: 200px;
     box-shadow: 0px 0px 50px rgba(127, 125, 125, 0.523);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.contact_card:hover{
+    transform: scale(1.09); /* Adjust scale as needed */
+    cursor: pointer;
+    box-shadow: 0px 0px 50px rgba(132, 132, 132, 0.523);
 
 }
 .contact_card .info .bx-right-arrow-alt {
@@ -410,7 +376,6 @@ ul li{
 }
 .info i{
     font-size: 27px ;
-
 }
 /* input fields */
 
@@ -421,11 +386,21 @@ ul li{
     width: 450px;
 }
 .input{
+    position: relative;
     display: flex;
     flex-direction: column;
     margin: 20px;
 }
+.input textarea::placeholder ,.input input::placeholder {
+    color: #888; 
+    font-style: italic; 
+    font-size: 14px; 
+}
 label{
+    background-color: rgba(250, 250, 250, 0.944);
+    position: absolute;
+    top: -10px; 
+    left: 10px;
     font-size: 18px;
     text-align: left;
     margin: 0 0 5px 5px;
@@ -437,10 +412,12 @@ label{
     color: rgb(85, 85, 85);
     border: solid  lightgray 1px;
     padding: 3px 15px;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .input textarea {
+    resize:none;
     height: 150px;
     padding: 15px;
 }
@@ -451,6 +428,221 @@ label{
     padding: 8px 15px;
     border-radius: 8px;
     cursor: pointer;
-    width: auto; /* Make the button width auto */
+    width: auto; 
     align-self:start;
+}
+
+@media (max-width: 1024px) and (min-width: 780px) {
+    .experience_container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .projects_section{
+        gap: 0px;
+        padding: 50px 0 70px 0;
+    }
+    .projects-container {
+        padding: 10px;
+        width: 95%;
+    }
+    .project {
+        width: 220px;
+        height: 320px;
+      }
+    .input_form{
+        width: 350px;
+    }
+    .contact_card{
+        margin: 15px;
+        width: 280px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 594px) {
+    header{
+        padding: 10px;
+    }
+    .Home h1{
+        letter-spacing: 2px;
+        font-size: 40px;
+    }
+  
+    .Home h3{
+        font-size: 25px;
+        letter-spacing: 1px;
+    }    
+    ul{
+        padding: 0 15px;
+        margin-right: 15px;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    /* experience_container */
+    .experience_container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* projects_section  */
+    .projects_section{
+        gap: 0px;
+        padding: 50px 0 70px 0;
+    }
+    .projects-container {
+        padding: 10px;
+        width: 95%;
+    }
+    .project {
+        width: 220px;
+        height: 320px;
+    }
+
+      /* input_form */
+      .contact_section{
+        padding: 70px 40px;
+    }
+      .contact_container{
+        display: flex;
+        gap: 35px;
+        flex-direction: column;
+    }
+    .contact_card{
+        border-radius: 8px;
+        margin: 15px;
+        width: 430px;
+        height: 200px;
+        box-shadow: 0px 0px 50px rgba(127, 125, 125, 0.523);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .input_form{
+        width: 430px;
+    }
+}
+
+
+@media (max-width: 594px) and (min-width: 400px) {
+    header{
+        padding: 10px;
+    }
+    .Home h1{
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+  
+    .Home h3{
+        font-size: 20px;
+    }    
+    ul{
+      display: none;
+    }
+    /* experience_container */
+    .experience_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .front_back{
+        gap: 20px;
+        width: 345px;
+    }
+    /* projects_section  */
+    .projects_section{
+        gap: 0px;
+        padding: 50px 0 70px 0;
+    }
+    .projects-container {
+        padding: 10px;
+        width: 95%;
+    }
+    #projects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .project {
+        width: 300px;
+        height: 320px;
+    }
+
+      /* input_form */
+      .contact_section{
+        padding: 70px 40px;
+    }
+      .contact_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        flex-direction: column;
+    }
+    .contact_card  , .input_form{
+        width: 365px;
+    }
+   
+}
+@media (max-width: 400px) and (min-width: 320px) {
+    
+    .Home h1{
+        font-size: 20px;
+    }
+  
+    .Home h3{
+        font-size: 15px;
+    }    
+    ul{
+      display: none;
+    }
+    /* experience_container */
+    .experience_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .front_back{
+        gap: 20px;
+        width: 300px;
+        padding: 20px;
+        gap: 15px;
+
+    }
+    #skills{
+        width: 95%;
+        gap: 25px;
+    }
+    /* projects_section  */
+    .projects_section{
+        gap: 0px;
+        padding: 50px 0 70px 0;
+    }
+    .projects-container {
+        padding: 10px;
+        width: 95%;
+    }
+    #projects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .project {
+        width: 280px;
+        height: 320px;
+    }
+
+      /* input_form */
+      .contact_section{
+        padding: 70px 4px;
+    }
+      .contact_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        flex-direction: column;
+    }
+    .contact_card , .input_form{
+        width: 300px;
+    }
+   
 }
