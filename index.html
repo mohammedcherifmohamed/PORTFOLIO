@@ -5,33 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="portfolio.css">
-    <title>PORTFOLIO</title>
+    <title>Yūrei 
+    </title>
 </head>
 <body>
-    <section class="main">
+    <section class="main" id="Home" >
         <header>
             <div class="logo"><img src="imgs/desktop01.png" alt="logo not-found"></div>
+            <div class="menu"><i class='bx bx-menu'></i></div>
             <ul>
-                <a><li>Home</li></a>
-                <a><li>Experiance</li></a>
-                <a><li>Projects</li></a>
-                <a><li>Contact</li></a>
+                <a href="#Home" ><li>Home</li></a>
+                <a href="#experience"><li>Experiance</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#Contact"><li>Contact</li></a>
             </ul>
         </header>
 
         <div class="Home">
             <h1>WEB SITES DEVELOPER </h1>
             <h2>Frontend</h2>
-            <h3>landing page , e-commerce , blog </h3>
+            <h3 id="typing_effect" ></h3>
             <button>Download My cv</button>
         </div>
-   <!-- ________________________________________________________________________________________________________________________ -->
-   <!-- ________________________________________________________________________________________________________________________ -->
-   <!-- ________________________________________________________________________________________________________________________ -->
-   <!-- ________________________________________________________________________________________________________________________ -->
+    <button id="scrollToTopBtn" title="Go to top"><i class='bx bxs-chevron-up' ></i></button>
+
     </section>
     <!--  -->
-    <section class="experience">
+    <section class="experience" id="experience" >
         <div class="header">
             <h5>Explore My</h5>
             <h1>Experience</h1>
@@ -120,97 +120,24 @@
         </div>
     </section>
     <!-- ________ PROJECTS SECTION __________ -->
-        <section class="projects_section">
+        <section class="projects_section"  >
             <div class="header">
                 <h5>Explore My</h5>
                 <h1>PROJECTS</h1>
             </div>
             <div class="projects-container">
-                <!-- <button class="scroll-btn left" onclick="scrollGallery('left')">←</button> -->
                 <div class="projects" id="projects">
-                  
-                    <div class="project">
-                        <div class="img"><img src="imgs/news.jpg" alt=""></div>
-                        <h1>Project Four</h1>
-                        <div class="project_links">
-                            <a href="#">Github</a>
-                            <a href="#">Live Demo</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="img"><img src="imgs/calcul.png" alt=""></div>
-
-                        <h1>Project Four</h1>
-                        <div class="project_links">
-                            <a href="#">Github</a>
-                            <a href="#">Live Demo</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="img"><img src="imgs/TIMER.png" alt=""></div>
-                        <h1>Project Four</h1>
-                        <div class="project_links">
-                            <a href="#">Github</a>
-                            <a href="#">Live Demo</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="img"><img src="imgs/quran.png" alt=""></div>
-
-                        <h1>Project Four</h1>
-                        <div class="project_links">
-                            <a href="#">Github</a>
-                            <a href="#">Live Demo</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="img"><img src="imgs/TO8DO.png" alt=""></div>
-                        <h1>Project Four</h1>
-                        <div class="project_links">
-                            <a href="#">Github</a>
-                            <a href="#">Live Demo</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="img"><img src="imgs/note.png" alt=""></div>
-
-                        <h1>Project Four</h1>
-                        <div class="project_links">
-                            <a href="#">Github</a>
-                            <a href="#">Live Demo</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="img"><img src="imgs/e-commerce.png" alt=""></div>
-                        <h1>Project Four</h1>
-                        <div class="project_links">
-                            <a href="#">Github</a>
-                            <a href="#">Live Demo</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="img"><img src="imgs/calcul.png" alt=""></div>
-
-                        <h1>Project Four</h1>
-                        <div class="project_links">
-                            <a href="#">Github</a>
-                            <a href="#">Live Demo</a>
-                        </div>
-                    </div>
-                 
-
+                    <!-- the projects wil added here -->
+                     
                 </div>
-                <!-- <button class="scroll-btn right" onclick="scrollGallery('right')">→</button> -->
+                <a href="portfolio_projects.html" target="_blank" ><button id="discover_more" >discover more</button></a>
             </div>
-   <!-- ________________________________________________________________________________________________________________________ -->
-   <!-- ________________________________________________________________________________________________________________________ -->
-   <!-- ________________________________________________________________________________________________________________________ -->
-   <!-- ________________________________________________________________________________________________________________________ -->
+
         </section>
 
         <!-- _________  CONTACT SECTION _________  -->
 
-    <section class="contact_section">
+    <section class="contact_section" id="Contact" >
         <div class="contact_container">
            <div class="contact">
                 <h1>Talk to me</h1>
@@ -265,5 +192,8 @@
   })();
 </script>
 
+<script src="portfolio.js" > </script>
+
   
 </html>
+
