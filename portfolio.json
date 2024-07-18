@@ -1,0 +1,63 @@
+[
+    {
+      "image": "imgs/pro4pro.jpg",
+      "title": "CRUDS APP",
+      "github": "z",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/CRUDS_Application/"
+    },
+    {
+      "image": "imgs/calcul.png",
+      "title": "Calculator",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/calculator/"
+    },
+    {
+      "image": "imgs/TIMER.png",
+      "title": "Stopwatche",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/stopwatch/"
+    },
+    {
+      "image": "imgs/quran.png",
+      "title": "Quaran Lecture",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/quaran_lecture/"
+    },
+    {
+      "image": "imgs/TO8DO.png",
+      "title": "TO_DO_APP",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/TO_DO_LIST/"
+    },
+    {
+      "image": "imgs/qr03.png",
+      "title": "QR_GENERATOR_APP",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/QR-Code-Generator/"
+    },
+    {
+      "image": "imgs/filtre.png",
+      "title": "TO_DO_APP",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/Product_Filter/"
+    },
+    {
+      "image": "imgs/note.png",
+      "title": "NOTES-APP",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/NOTES/"
+    },
+    {
+      "image": "imgs/e-commerce.png",
+      "title": "advenced_E-Commerce",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/adv_E-Commerce/"
+    },
+    {
+      "image": "imgs/clock03.png",
+      "title": "Project Eight",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/CLOCK/"
+    }
+  ]
+  
