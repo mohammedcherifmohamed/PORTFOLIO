@@ -3,18 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="icon" href="imgs/logo03.jpg">
+    <title>portfolio projects</title>
     <link rel="stylesheet" href="portfolio.css">
-    <title>Document</title>
-  
-</head>
-<body>
-    <div class="projects-container">
-        <div class="projects" id="projects">
-            <!-- the projects wil added here -->
-            
-        </div>
+
+  </head>
+  <body>
+    <div class="projects_section">
+      <div class="projects-container">
+          <div class="projects" id="projects">
+              <div class="project">
+                  <div class="img">
+                      <img src="imgs/filter.png" alt="Project Image">
+                  </div>
+                  <h1>Project Title</h1>
+                  <p>Short description of the project. Highlight key features or technologies used.</p>
+                  <div class="project_links">
+                      <a href="#">View Project</a>
+                      <a href="#">GitHub</a>
+                  </div>
+              </div>
+              <!-- More projects can be added similarly -->
+          </div>
+      </div>
     </div>
-</body>
+  </body>
 <script  >
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -30,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
           projectDiv.innerHTML = `
             <div class="img"><img src="${project.image}" alt=""></div>
             <h1>${project.title}</h1>
+            <p>Short description of the project. Highlight key features or technologies used.</p>
             <div class="project_links">
               <a href="${project.github}" target="_blank">Github</a>
               <a href="${project.liveDemo}" target="_blank">Live Demo</a>
