@@ -13,12 +13,13 @@ document.addEventListener("DOMContentLoaded", function() {
         projectDiv.classList.add('project');
 
         projectDiv.innerHTML = `
-          <div class="img"><img src="${project.image}" alt=""></div>
-          <h1>${project.title}</h1>
-          <div class="project_links">
-            <a href="${project.github}" target="_blank">Github</a>
-            <a href="${project.liveDemo}" target="_blank">Live Demo</a>
-          </div>
+         <div class="img"><img src="${project.image}" alt=""></div>
+            <h1>${project.title}</h1>
+            <p>Short description of the project. Highlight key features or technologies used.</p>
+            <div class="project_links">
+              <a href="${project.github}" target="_blank">Github</a>
+              <a href="${project.liveDemo}" target="_blank">Live Demo</a>
+            </div>
         `;
 
         projectsContainer.appendChild(projectDiv);
