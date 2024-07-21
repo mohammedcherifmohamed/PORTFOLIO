@@ -1,18 +1,18 @@
 [
     {
-      "image": "imgs/pro4pro.jpg",
+      "image": "imgs/CRUDS_01.png",
       "title": "CRUDS APP",
       "github": "z",
       "liveDemo": "https://mohammedcherifmohamed.github.io/CRUDS_Application/"
     },
     {
-      "image": "imgs/calcul.png",
+      "image": "imgs/CLCULATOR.png",
       "title": "Calculator",
       "github": "#",
       "liveDemo": "https://mohammedcherifmohamed.github.io/calculator/"
     },
     {
-      "image": "imgs/TIMER.png",
+      "image": "imgs/stop_watch.png",
       "title": "Stopwatche",
       "github": "#",
       "liveDemo": "https://mohammedcherifmohamed.github.io/stopwatch/"
@@ -24,20 +24,20 @@
       "liveDemo": "https://mohammedcherifmohamed.github.io/quaran_lecture/"
     },
     {
-      "image": "imgs/TO8DO.png",
+      "image": "imgs/to_do_01.png",
       "title": "TO_DO_APP",
       "github": "#",
       "liveDemo": "https://mohammedcherifmohamed.github.io/TO_DO_LIST/"
     },
     {
-      "image": "imgs/qr03.png",
+      "image": "imgs/qr_gen.png",
       "title": "QR_GENERATOR_APP",
       "github": "#",
       "liveDemo": "https://mohammedcherifmohamed.github.io/QR-Code-Generator/"
     },
     {
-      "image": "imgs/filtre.png",
-      "title": "TO_DO_APP",
+      "image": "imgs/news.jpg",
+      "title": "US_DAILY_NEWS",
       "github": "#",
       "liveDemo": "https://mohammedcherifmohamed.github.io/Product_Filter/"
     },
@@ -48,13 +48,37 @@
       "liveDemo": "https://mohammedcherifmohamed.github.io/NOTES/"
     },
     {
-      "image": "imgs/e-commerce.png",
+      "image": "imgs/adv_e-commerce.png",
       "title": "advenced_E-Commerce",
       "github": "#",
       "liveDemo": "https://mohammedcherifmohamed.github.io/adv_E-Commerce/"
     },
     {
-      "image": "imgs/clock03.png",
+      "image": "imgs/clock.png",
+      "title": "Project Eight",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/CLOCK/"
+    },
+    {
+      "image": "imgs/RESTOREN.png",
+      "title": "restoren web",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/restorent/"
+    },
+    {
+      "image": "imgs/e-commerce_01.png",
+      "title": "Project Eight",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/Add-To-Cart---Furniture/"
+    },
+    {
+      "image": "imgs/to_do_01.png",
+      "title": "Project Eight",
+      "github": "#",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/CLOCK/"
+    },
+    {
+      "image": "imgs/to_do_02.png",
       "title": "Project Eight",
       "github": "#",
       "liveDemo": "https://mohammedcherifmohamed.github.io/CLOCK/"
