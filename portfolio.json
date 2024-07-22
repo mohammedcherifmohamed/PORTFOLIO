@@ -1,87 +1,107 @@
 [
+   {
+    "image": "imgs/filter.png",
+    "title": "filter products",
+    "discription" : "e-commerce website with search feature",
+    "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/Product_Filter",
+    "liveDemo": "https://mohammedcherifmohamed.github.io/Product_Filter/"
+   },
     {
-      "image": "imgs/CRUDS_01.png",
-      "title": "CRUDS APP",
-      "github": "z",
-      "liveDemo": "https://mohammedcherifmohamed.github.io/CRUDS_Application/"
+    "image": "imgs/CRUDS_01.png",
+    "title": "CRUDS APP",
+    "discription" : "CRUDS APP ( storing data in local storage ) ",
+    "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/CRUDS_Project",
+    "liveDemo": "https://mohammedcherifmohamed.github.io/CRUDS_Project/"
     },
     {
       "image": "imgs/CLCULATOR.png",
       "title": "Calculator",
-      "github": "#",
+    "discription" : "iphone calculator",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/calculator",
       "liveDemo": "https://mohammedcherifmohamed.github.io/calculator/"
     },
     {
       "image": "imgs/stop_watch.png",
       "title": "Stopwatche",
-      "github": "#",
+    "discription" : "stop watch timer ",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/stopwatch",
       "liveDemo": "https://mohammedcherifmohamed.github.io/stopwatch/"
     },
     {
       "image": "imgs/quran.png",
       "title": "Quaran Lecture",
-      "github": "#",
+    "discription" : "quran lecture with ability of changing songs , play / stop ",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/quaran_lecture",
       "liveDemo": "https://mohammedcherifmohamed.github.io/quaran_lecture/"
     },
     {
       "image": "imgs/to_do_01.png",
       "title": "TO_DO_APP",
-      "github": "#",
+    "discription" : "TO DO APP ( storing data in local storage ) ",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/TO_DO_LIST",
       "liveDemo": "https://mohammedcherifmohamed.github.io/TO_DO_LIST/"
     },
     {
       "image": "imgs/qr_gen.png",
       "title": "QR_GENERATOR_APP",
-      "github": "#",
+      "discription" : " you can enter any link and your QR-CODE is ready  ",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/QR-Code-Generator",
       "liveDemo": "https://mohammedcherifmohamed.github.io/QR-Code-Generator/"
     },
     {
       "image": "imgs/news.jpg",
       "title": "US_DAILY_NEWS",
-      "github": "#",
+      "discription" : " daily United Satats News ",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/Product_Filter",
       "liveDemo": "https://mohammedcherifmohamed.github.io/Product_Filter/"
     },
     {
       "image": "imgs/note.png",
       "title": "NOTES-APP",
-      "github": "#",
+      "discription" : "NOTES APP ( create , delete , update , star the notes and store them in local storage ) ",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/NOTES",
       "liveDemo": "https://mohammedcherifmohamed.github.io/NOTES/"
     },
     {
       "image": "imgs/adv_e-commerce.png",
       "title": "advenced_E-Commerce",
-      "github": "#",
+      "discription" : "e-commerce web-site  with ( search functionality by { category , brand , price , colors , name }  ) ",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/adv_E-Commerce/",
       "liveDemo": "https://mohammedcherifmohamed.github.io/adv_E-Commerce/"
     },
     {
       "image": "imgs/clock.png",
       "title": "Project Eight",
-      "github": "#",
+      "discription" : " wall clock",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/CLOCK/",
       "liveDemo": "https://mohammedcherifmohamed.github.io/CLOCK/"
     },
     {
       "image": "imgs/RESTOREN.png",
       "title": "restoren web",
-      "github": "#",
+      "discription" : "responsive restaurant web-site",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/restorent/",
       "liveDemo": "https://mohammedcherifmohamed.github.io/restorent/"
     },
     {
       "image": "imgs/e-commerce_01.png",
       "title": "Project Eight",
-      "github": "#",
+      "discription" : "responsive e-commerce web-site with ( add to cart functionality { add-to-cart , remove , and counting the total price and saving data in local storage } )",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/Add-To-Cart---Furniture/",
       "liveDemo": "https://mohammedcherifmohamed.github.io/Add-To-Cart---Furniture/"
-    },
-    {
-      "image": "imgs/to_do_01.png",
-      "title": "Project Eight",
-      "github": "#",
-      "liveDemo": "https://mohammedcherifmohamed.github.io/CLOCK/"
     },
     {
       "image": "imgs/to_do_02.png",
       "title": "Project Eight",
-      "github": "#",
-      "liveDemo": "https://mohammedcherifmohamed.github.io/CLOCK/"
+      "discription" : " wall clock",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/to_do_app",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/to_do_app/"
+    },
+    {
+      "image": "imgs/to_do_01.png",
+      "title": "Project Eight",
+      "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/TO_DO_LIST",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/TO_DO_LIST/"
     }
   ]
   
