@@ -14,22 +14,22 @@ body {
 }
 
 #scrollToTopBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed position */
-    bottom: 20px; /* Place the button 20px from the bottom */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #000; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none;
+    background-color: #000; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 10px; 
 }
 
 #scrollToTopBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #555; 
 }
 
 .main {
@@ -86,6 +86,7 @@ header {
     letter-spacing: 2px;
 }
 
+
 .Home button {
     border: none;
     background-color: gold;
@@ -124,7 +125,10 @@ ul li {
 .menu {
     cursor: pointer;
 }
-
+ul a:hover li {
+    color: #000; 
+    transition: color .5s ease;
+}
 ul.show {
     display: flex !important;
     flex-direction: column;
@@ -282,7 +286,10 @@ ul.show a {
     color: #666;
     margin: 10px 0;
 }
-
+/* .project p{ */
+    /* font-style: italic; */
+    /* font-weight: 600; */
+/* } */
 .project_links {
     margin-top: 15px;
 }
@@ -472,6 +479,10 @@ label {
 }
 
 @media (max-width: 768px) and (min-width: 594px) {
+    .logo img {
+        height: 85px;
+        width:  85px;
+    }
     header {
         padding: 10px;
     }
@@ -524,6 +535,10 @@ label {
 }
 
 @media (max-width: 594px) and (min-width: 400px) {
+    .logo img {
+        height: 65px;
+        width:  65px;
+    }
     header {
         padding: 10px;
     }
@@ -573,6 +588,14 @@ label {
 }
 
 @media (max-width: 400px) and (min-width: 250px) {
+        .logo img {
+        height: 65px;
+        width:  65px;
+    }
+    header {
+        justify-content: center;
+        gap: 50%;
+    }
     .Home h1 {
         font-size: 20px;
     }
