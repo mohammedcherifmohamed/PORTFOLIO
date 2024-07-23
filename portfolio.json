@@ -92,14 +92,15 @@
     },
     {
       "image": "imgs/to_do_02.png",
-      "title": "Project Eight",
-      "discription" : " wall clock",
+      "title": "TO DO APP ",
+      "discription" : " TO DO APP ( tasks and tasks done count create , edit , delete , and saving data )",
       "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/to_do_app",
       "liveDemo": "https://mohammedcherifmohamed.github.io/to_do_app/"
     },
     {
       "image": "imgs/to_do_01.png",
-      "title": "Project Eight",
+      "title": "TO DO APP ",
+      "discription" : " TO DO APP ( create , edit , delete , and saving data )",
       "github": "https://github.com/MOHAMMEDcHERIFmOHAMED/TO_DO_LIST",
       "liveDemo": "https://mohammedcherifmohamed.github.io/TO_DO_LIST/"
     }
