@@ -117,3 +117,13 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   });
   
+  // __________ DOWNLOAD CV FUNCTION  __________ 
+
+  document.getElementById('downloadBtn').addEventListener('click', function () {
+    const a = document.createElement('a');
+    a.href = 'imgs/cv.pdf'; 
+    a.download = 'cv.pdf';           
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+});
