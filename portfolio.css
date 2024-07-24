@@ -218,8 +218,6 @@ ul.show a {
 }
 
 /* ________ PROJECTS SECTION __________ */
-
-
 .projects_section {
     display: flex;
     flex-direction: column;
@@ -286,10 +284,7 @@ ul.show a {
     color: #666;
     margin: 10px 0;
 }
-/* .project p{ */
-    /* font-style: italic; */
-    /* font-weight: 600; */
-/* } */
+
 .project_links {
     margin-top: 15px;
 }
@@ -328,11 +323,6 @@ ul.show a {
     cursor: pointer;
 
 }
-
-/* ___________________________________________________________________________________________________________________________ */
-/* ___________________________________________________________________________________________________________________________ */
-/* ___________________________________________________________________________________________________________________________ */
-/* ___________________________________________________________________________________________________________________________ */
 
 /* _________  CONTACT SECTION _________ */
 .contact_section {
@@ -532,6 +522,9 @@ label {
     .input_form {
         width: 430px;
     }
+    #discover_more{
+        right: 40%;
+    }
 }
 
 @media (max-width: 594px) and (min-width: 400px) {
@@ -584,6 +577,9 @@ label {
     .contact_card,
     .input_form {
         width: 365px;
+    }
+    #discover_more{
+        right: 40%;
     }
 }
 
@@ -644,6 +640,9 @@ label {
     .contact_card,
     .input_form {
         width: 300px;
+    }
+    #discover_more{
+        right: 34%;
     }
 }
 
