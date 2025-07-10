@@ -10,57 +10,57 @@
     "image": "imgs/CRUDS_01.png",
     "title": "CRUDS APP",
     "discription" : "CRUDS APP ( storing data in local storage ) ",
-    "github": "https://github.com/yurei42/CRUDS_Project",
-    "liveDemo": "https://yurei42.github.io/CRUDS_Project/"
+    "github": "https://github.com/mohammedcherifmohamed/CRUDS_Project",
+    "liveDemo": "https://mohammedcherifmohamed.github.io/CRUDS_Project/"
     },
     {
       "image": "imgs/CLCULATOR.png",
       "title": "Calculator",
     "discription" : "iphone calculator",
-      "github": "https://github.com/yurei42/calculator",
-      "liveDemo": "https://yurei42.github.io/calculator/"
+      "github": "https://github.com/mohammedcherifmohamed/calculator",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/calculator/"
     },
     {
       "image": "imgs/stop_watch.png",
       "title": "Stopwatche",
     "discription" : "stop watch timer ",
-      "github": "https://github.com/yurei42/stopwatch",
-      "liveDemo": "https://yurei42.github.io/stopwatch/"
+      "github": "https://github.com/mohammedcherifmohamed/stopwatch",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/stopwatch/"
     },
     {
       "image": "imgs/quran.png",
       "title": "Quaran Lecture",
     "discription" : "quran lecture with ability of changing songs , play / stop ",
-      "github": "https://github.com/yurei42/quaran_lecture",
-      "liveDemo": "https://yurei42.github.io/quaran_lecture/"
+      "github": "https://github.com/mohammedcherifmohamed/quaran_lecture",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/quaran_lecture/"
     },
     {
       "image": "imgs/to_do_01.png",
       "title": "TO_DO_APP",
     "discription" : "TO DO APP ( storing data in local storage ) ",
-      "github": "https://github.com/yurei42/TO_DO_LIST",
-      "liveDemo": "https://yurei42.io/TO_DO_LIST/"
+      "github": "https://github.com/mohammedcherifmohamed/TO_DO_LIST",
+      "liveDemo": "https://mohammedcherifmohamed.io/TO_DO_LIST/"
     },
     {
       "image": "imgs/qr_gen.png",
       "title": "QR_GENERATOR_APP",
       "discription" : " you can enter any link and your QR-CODE is ready  ",
-      "github": "https://github.com/yurei42/QR-Code-Generator",
-      "liveDemo": "https://yurei42.github.io/QR-Code-Generator/"
+      "github": "https://github.com/mohammedcherifmohamed/QR-Code-Generator",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/QR-Code-Generator/"
     },
     {
       "image": "imgs/news.jpg",
       "title": "US_DAILY_NEWS",
       "discription" : " daily United Satats News ",
-      "github": "https://github.com/yurei42/US-NEWS",
-      "liveDemo": "https://yurei42.github.io/US-NEWS/"
+      "github": "https://github.com/mohammedcherifmohamed/US-NEWS",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/US-NEWS/"
     },
     {
       "image": "imgs/note.png",
       "title": "NOTES-APP",
       "discription" : "NOTES APP ( create , delete , update , star the notes and store them in local storage ) ",
-      "github": "https://github.com/yurei42/NOTES",
-      "liveDemo": "https://yurei42.github.io/NOTES/"
+      "github": "https://github.com/mohammedcherifmohamed/NOTES",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/NOTES/"
     },
     {
       "image": "imgs/adv_e-commerce.png",
@@ -73,36 +73,36 @@
       "image": "imgs/clock.png",
       "title": "Project Eight",
       "discription" : " wall clock",
-      "github": "https://github.com/yurei42/CLOCK/",
-      "liveDemo": "https://yurei42.github.io/CLOCK/"
+      "github": "https://github.com/mohammedcherifmohamed/CLOCK/",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/CLOCK/"
     },
     {
       "image": "imgs/RESTOREN.png",
       "title": "restaurent web",
       "discription" : "responsive restaurant web-site",
-      "github": "https://github.com/yurei42/restorent/",
-      "liveDemo": "https://yurei42.github.io/restorent/"
+      "github": "https://github.com/mohammedcherifmohamed/restorent/",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/restorent/"
     },
     {
       "image": "imgs/e-commerce_01.png",
       "title": "Project Eight",
       "discription" : "responsive e-commerce web-site with ( add to cart functionality { add-to-cart , remove , and counting the total price and saving data in local storage } )",
-      "github": "https://github.com/yurei42/Add-To-Cart---Furniture/",
-      "liveDemo": "https://yurei42.github.io/Add-To-Cart---Furniture/"
+      "github": "https://github.com/mohammedcherifmohamed/Add-To-Cart---Furniture/",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/Add-To-Cart---Furniture/"
     },
     {
       "image": "imgs/to_do_02.png",
       "title": "TO DO APP ",
       "discription" : " TO DO APP ( tasks and tasks done count create , edit , delete , and saving data )",
-      "github": "https://github.com/yurei42/to_do_app",
-      "liveDemo": "https://yurei42.github.io/to_do_app/"
+      "github": "https://github.com/mohammedcherifmohamed/to_do_app",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/to_do_app/"
     },
     {
       "image": "imgs/to_do_01.png",
       "title": "TO DO APP ",
       "discription" : " TO DO APP ( create , edit , delete , and saving data )",
-      "github": "https://github.com/yurei42/TO_DO_LIST",
-      "liveDemo": "https://yurei42.github.io/TO_DO_LIST/"
+      "github": "https://github.com/mohammedcherifmohamed/TO_DO_LIST",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/TO_DO_LIST/"
     }
   ]
   
