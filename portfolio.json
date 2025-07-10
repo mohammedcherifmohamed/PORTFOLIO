@@ -3,8 +3,8 @@
     "image": "imgs/filter.png",
     "title": "filter products",
     "discription" : "e-commerce website with search feature",
-    "github": "https://github.com/yurei42/Product_Filter",
-    "liveDemo": "https://yurei42.github.io/Product_Filter/"
+    "github": "https://github.com/mohammedcherifmohamed/Product_Filter",
+    "liveDemo": "https://mohammedcherifmohamed.github.io/Product_Filter/"
    },
     {
     "image": "imgs/CRUDS_01.png",
@@ -66,8 +66,8 @@
       "image": "imgs/adv_e-commerce.png",
       "title": "advanced_E-Commerce",
       "discription" : "e-commerce web-site  with ( search functionality by { category , brand , price , colors , name }  ) ",
-      "github": "https://github.com/yurei42/adv_E-Commerce/",
-      "liveDemo": "https://yurei42.github.io/adv_E-Commerce/"
+      "github": "https://github.com/mohammedcherifmohamed/adv_E-Commerce/",
+      "liveDemo": "https://mohammedcherifmohamed.github.io/adv_E-Commerce/"
     },
     {
       "image": "imgs/clock.png",
