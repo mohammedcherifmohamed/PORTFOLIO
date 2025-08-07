@@ -1,0 +1,80 @@
+[
+  {
+    "title": "E-Commerce Platform",
+    "description": "A full-featured online store with product management, cart functionality, and checkout processing.",
+    "technologies": ["Laravel","MySQL", "JavaScript"],
+    "image": "images/ecom2.png",
+    "demoLink": "#"
+  },
+    
+  {
+    "title": "Inventory Management",
+    "description": "online store  for tracking inventory levels, orders, and sales with reporting features.",
+    "technologies": ["Laravel","MySQL", "JavaScript"],
+    "image": "images/dashboard3.png",
+    "demoLink": "#"
+  },
+  {
+    "title": "Task Management App",
+    "description": "task management system with real-time updates .",
+    "technologies": ["Laravel", "AJAX", "MySQL", "Tailwind CSS"],
+    "image": "images/todo2.jpg",
+    "demoLink": "#"
+  },
+  {
+    "title": "Note App",
+    "description": "Note management system where you can create, edit, and delete notes with defferent colors .",
+    "technologies": ["Laravel", "AJAX", "MySQL", "Tailwind CSS"],
+    "image": "images/todo.jpg",
+    "demoLink": "#"
+  },
+  {
+    "title": "Academy Platform",
+    "description": "An online learning platform with course management .",
+    "technologies": ["Laravel", "AJAX", "MySQL", "Tailwind CSS"],
+    "image": "images/academy.png",
+    "demoLink": "#"
+  }
+
+    ,
+  {
+    "title": "Task Management App",
+    "description": "A collaborative task management system with real-time updates and team features.",
+    "technologies": ["Laravel", "AJAX", "MySQL", "Tailwind CSS"],
+    "image": "images/mastor2.png",
+    "demoLink": "#"
+  }
+
+  ,
+  {
+    "title": "clinic Management System",
+    "description": "A clinic management system for managing patient records, appointments, and billing.",
+    "technologies": ["Laravel", "AJAX", "MySQL", "Tailwind CSS"],
+    "image": "images/clinique.png",
+    "demoLink": "#"
+  }
+  ,
+  {
+    "title": "E-commerce Website",
+    "description": "A full-featured online store ",
+    "technologies": ["Laravel", "AJAX", "MySQL", "Tailwind CSS"],
+    "image": "images/mastor1.png",
+    "demoLink": "#"
+  }
+  ,
+  {
+    "title": "Task Management App",
+    "description": "A collaborative task management system with real-time updates and team features.",
+    "technologies": ["Laravel", "AJAX", "MySQL", "Tailwind CSS"],
+    "image": "images/academy.png",
+    "demoLink": "#"
+  }
+  ,
+  {
+    "title": "E-commerce Website",
+    "description": "A full-featured online store ",
+    "technologies": ["Laravel", "AJAX", "MySQL", "Tailwind CSS"],
+    "image": "images/ecom4.png",
+    "demoLink": "#"
+  }
+]
