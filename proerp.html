@@ -202,9 +202,9 @@
       <!-- ═══ ARTICLE BODY ═══ -->
       <div class="max-w-3xl mx-auto px-6 pb-4 prose-cs">
 
-        <h2>Le brief</h2>
-        <p>IndustriTech est une PME spécialisée dans la distribution de pièces industrielles. L'entreprise gérait ses stocks, factures et commandes via des feuilles Excel et un logiciel obsolète. L'objectif était de créer un ERP sur mesure centralisant toutes les opérations en une seule plateforme web accessible.</p>
-        <p>Ma mission était claire : concevoir et développer une solution ERP complète avec gestion des stocks en temps réel, facturation automatisée, suivi des commandes et tableaux de bord analytiques. Le budget était fixe et le délai de livraison était de 10 semaines.</p>
+        <h2>Le scénario</h2>
+        <p>IndustriTech est une PME spécialisée dans la distribution de pièces industrielles. L'entreprise gère ses stocks, factures et commandes via des feuilles Excel et un logiciel obsolète. L’objectif sera de créer un ERP sur mesure qui centralisera toutes les opérations en une seule plateforme web accessible.</p>
+        <p>Ma mission sera claire : concevoir et développer une solution ERP complète avec gestion des stocks en temps réel, facturation automatisée, suivi des commandes et tableaux de bord analytiques. Le budget restera fixe et le délai de livraison prévu sera de 10 semaines.</p>
 
         <blockquote>
           <p>"Nous perdions des heures chaque semaine à synchroniser les données entre nos différents tableurs. Nous avions besoin d'une solution unifiée."</p>
@@ -212,16 +212,16 @@
 
         <h2>Découverte & recherche</h2>
         <h3>Analyse des processus</h3>
-        <p>J'ai mené une série d'entretiens avec les employés de terrain et les managers pour comprendre les flux de travail existants. Les sessions ont duré 45 minutes chacune, combinant observation directe et entretiens post-tâche. Résultats clés :</p>
+        <p>Je mènerai une série d’entretiens avec les employés de terrain et les managers pour comprendre les flux de travail existants. Les sessions dureront 45 minutes chacune, combinant observation directe et entretiens post-tâche. Points clés attendus :</p>
         <ul>
           <li>12 processus métier identifiés, 6 redondants, 3 sans automatisation possible</li>
-          <li>La gestion des stocks était manuelle et source d'erreurs fréquentes</li>
-          <li>Le suivi des factures nécessitait des heures de travail répétitif chaque semaine</li>
+          <li>La gestion des stocks actuelle est manuelle et source d'erreurs fréquentes</li>
+          <li>Le suivi des factures nécessite des heures de travail répétitif chaque semaine</li>
           <li>Les employés souhaitaient un suivi des commandes et des alertes de stock en temps réel</li>
         </ul>
 
         <h3>Entretiens utilisateurs</h3>
-        <p>8 entretiens ont été réalisés avec les employés de terrain et les managers. Les besoins principaux identifiés : suivi des stocks en temps réel, facturation automatisée, tableaux de bord analytiques et système de rôles pour limiter l'accès selon le profil de chaque utilisateur.</p>
+        <p>8 entretiens seront menés avec les employés de terrain et les managers. Les besoins principaux à identifier : suivi des stocks en temps réel, facturation automatisée, tableaux de bord analytiques et système de rôles pour limiter l'accès selon le profil de chaque utilisateur.</p>
 
       </div>
 
@@ -236,7 +236,7 @@
       <div class="max-w-3xl mx-auto px-6 pb-4 prose-cs">
 
         <h2>Stratégie de conception</h2>
-        <p>Basé sur la recherche, j'ai construit la solution autour de trois principes :</p>
+        <p>Basé sur la recherche, je construirai la solution autour de trois principes :</p>
 
       </div>
 
@@ -267,13 +267,13 @@
         </div>
       </div>
 
-      <div class="max-w-3xl mx-auto px-6 pb-4 prose-cs">
+      <!-- <div class="max-w-3xl mx-auto px-6 pb-4 prose-cs">
 
         <h2>Processus</h2>
         <h3>Analyse & modélisation</h3>
-        <p>J'ai commencé par modéliser l'ensemble des entités : produits, stocks, fournisseurs, commandes, factures, clients. J'ai conçu le schéma de base de données MySQL avec 22 tables et les relations nécessaires, puis défini l'architecture Laravel avec les contrôleurs, modèles et migrations.</p>
+        <p>Je commencerai par modéliser l'ensemble des entités : produits, stocks, fournisseurs, commandes, factures, clients. Je concevrai le schéma de base de données MySQL avec 22 tables et les relations nécessaires, puis je définirai l'architecture Laravel avec les contrôleurs, modèles et migrations.</p>
 
-      </div>
+      </div> -->
 
       <!-- Process steps -->
       <div class="max-w-4xl mx-auto px-6 mb-12">
@@ -322,7 +322,7 @@
         <div class="reveal photo-frame w-full h-56 md:h-80 rounded-2xl">
           <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80" alt="Interface ERP — Dashboard administrateur et gestion des stocks" loading="lazy"/>
         </div>
-        <p class="img-caption">Captures d'écran finales : tableau de bord administrateur, gestion des stocks et module de facturation.</p>
+        <p class="img-caption">Aperçus prévus : tableau de bord administrateur, gestion des stocks et module de facturation.</p>
       </div>
 
       <!-- Before / After split -->
@@ -343,20 +343,20 @@
         </div>
       </div>
 
-      <div class="max-w-3xl mx-auto px-6 pb-16 prose-cs">
+      <!-- <div class="max-w-3xl mx-auto px-6 pb-16 prose-cs">
 
         <h2>Décisions clés</h2>
         <h3>Architecture modulaire</h3>
         <p>Chaque module (stocks, facturation, commandes, rapports) est indépendant mais interconnecté. Cette approche permet d'ajouter facilement de nouveaux modules sans impacter le reste du système. Les modules communiquent via des événements Laravel, garantissant une faible couplage et une maintenance simplifiée.</p>
 
         <h3>Système de permissions</h3>
-        <p>J'ai mis en place un système de rôles configurables : admin, magasinier, comptable, commercial. Chaque utilisateur ne voit que les sections pertinentes pour son poste. Ce contrôle d'accès fin garantit à la fois la sécurité et la simplicité d'utilisation de l'interface.</p>
+        <p>Je mettrai en place un système de rôles configurables : admin, magasinier, comptable, commercial. Chaque utilisateur ne voit que les sections pertinentes pour son poste. Ce contrôle d'accès fin garantit à la fois la sécurité et la simplicité d'utilisation de l'interface.</p>
 
         <h3>Rapports analytiques</h3>
         <p>Tableaux de bord dynamiques avec export PDF/CSV et indicateurs de performance en temps réel. Les managers disposent d'une vision globale de l'activité : rotation des stocks, chiffre d'affaires, commandes en cours, et tendances de vente. Les graphiques Chart.js permettent une visualisation intuitive des données.</p>
 
-        <h2>Résultats</h2>
-        <p>L'ERP a été livré en 10 semaines, dans les délais impartis. Les métriques ont été suivies pendant les 3 mois suivant le déploiement.</p>
+        <h2>Objectifs attendus</h2>
+        <p>L'ERP sera livré en 10 semaines, dans les délais prévus. Les métriques seront suivies pendant les 3 mois suivant le déploiement.</p>
         <ul>
           <li><strong>Temps de gestion administrative :</strong> −60 %</li>
           <li><strong>Productivité de l'équipe :</strong> +35 %</li>
@@ -370,14 +370,14 @@
           <p>"ProERP a transformé notre façon de travailler. Nos équipes ont gagné un temps précieux et les erreurs ont quasi disparu. Un investissement rentabilisé en quelques mois."</p>
         </blockquote>
 
-        <h2>Réflexions</h2>
-        <p>Ce projet m'a appris l'importance de bien comprendre les processus métier avant de coder. Un ERP n'est pas qu'un ensemble de formulaires — c'est le reflet de l'organisation d'une entreprise. La clé du succès a été l'implication continue des utilisateurs finaux tout au long du développement.</p>
-        <p>Si je devais le refaire, j'aurais aimé consacrer plus de temps à la phase de tests utilisateurs en conditions réelles d'entrepôt. Dix semaines est un délai serré pour un projet de cette envergure, mais grâce à une méthodologie agile et une communication constante avec le client, nous avons livré un produit qui dépasse les attentes.</p>
+        <h2>Axes d'amélioration</h2>
+        <p>Ce projet devra montrer l'importance de bien comprendre les processus métier avant de coder. Un ERP n'est pas qu'un ensemble de formulaires — c'est le reflet de l'organisation d'une entreprise. La clé du succès sera l'implication continue des utilisateurs finaux tout au long du développement.</p>
+        <p>Pour aller plus loin, j'aimerais consacrer plus de temps à la phase de tests utilisateurs en conditions réelles d'entrepôt. Dix semaines est un délai serré pour un projet de cette envergure, mais grâce à une méthodologie agile et une communication constante avec le client, nous livrerons un produit qui dépasse les attentes.</p>
 
         <hr/>
         <p><em>Intéressé par un projet similaire ? <a href="index.html#contact">Contactez-moi</a> — je suis disponible pour de nouvelles missions.</em></p>
 
-      </div>
+      </div> -->
     </article>
 
     <!-- ═══ MORE PROJECTS ═══ -->

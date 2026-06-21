@@ -201,8 +201,8 @@
       <!-- ═══ ARTICLE BODY ═══ -->
       <div class="max-w-3xl mx-auto px-6 pb-4 prose-cs">
 
-        <h2>Le brief</h2>
-        <p>DataInsight Analytics est une entreprise de conseil en stratégie cherchant à remplacer ses outils de reporting Excel par une application web de visualisation de données. L'objectif était de créer un dashboard interactif permettant d'analyser des données en temps réel et de générer des rapports automatiques.</p>
+        <h2>Le scénario</h2>
+        <p>DataInsight Analytics est une entreprise de conseil en stratégie cherchant à remplacer ses outils de reporting Excel par une application web de visualisation de données. L’objectif sera de créer un dashboard interactif qui permettra d'analyser des données en temps réel et de générer des rapports automatiques.</p>
 
         <blockquote>
           <p>"Nous passions des jours à créer des rapports Excel qui étaient déjà obsolètes avant d'être présentés. Nous avions besoin de données en temps réel."</p>
@@ -210,7 +210,7 @@
 
         <h2>Découverte & recherche</h2>
         <h3>Analyse des besoins</h3>
-        <p>Une analyse approfondie des besoins a été réalisée afin de cerner les fonctionnalités essentielles du dashboard. Les exigences incluaient :</p>
+        <p>Une analyse approfondie des besoins sera réalisée afin de cerner les fonctionnalités essentielles du dashboard. Les exigences incluront :</p>
         <ul>
           <li>5 types de graphiques : barres, lignes, camemberts, cartes de chaleur et gauges</li>
           <li>Filtres temporels dynamiques pour naviguer entre les périodes</li>
@@ -220,7 +220,7 @@
         </ul>
 
         <h3>Contraintes techniques</h3>
-        <p>Les contraintes techniques étaient significatives : traitement de données volumineuses (plus de 10 000 entrées par jour), mise à jour en temps réel sans rechargement de page, et performance optimale sur mobile. Le dashboard devait rester fluide même avec des jeux de données importants.</p>
+        <p>Les contraintes techniques seront significatives : traitement de données volumineuses (plus de 10 000 entrées par jour), mise à jour en temps réel sans rechargement de page, et performance optimale sur mobile. Le dashboard devra rester fluide même avec des jeux de données importants.</p>
 
       </div>
 
@@ -229,13 +229,13 @@
         <div class="reveal photo-frame w-full h-56 md:h-80 rounded-2xl">
           <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80" alt="Audit du dashboard existant — violations heuristiques identifiées" loading="lazy"/>
         </div>
-        <p class="img-caption">Analyse de l'existant : les problèmes de performance et d'ergonomie ont été cartographiés.</p>
+        <p class="img-caption">Analyse prévue de l'existant : les problèmes de performance et d'ergonomie seront cartographiés.</p>
       </div>
 
       <div class="max-w-3xl mx-auto px-6 pb-4 prose-cs">
 
         <h2>Stratégie de conception</h2>
-        <p>La solution a été construite autour de trois principes fondamentaux :</p>
+        <p>La solution sera construite autour de trois principes fondamentaux :</p>
 
       </div>
 
@@ -269,7 +269,7 @@
       <div class="max-w-3xl mx-auto px-6 pb-4 prose-cs">
 
         <h2>Processus</h2>
-        <p>Le développement du dashboard a suivi une approche structurée en cinq étapes clés :</p>
+        <p>Le développement du dashboard suivra une approche structurée en cinq étapes clés :</p>
 
       </div>
 
@@ -336,16 +336,16 @@
 
         <h2>Décisions clés</h2>
         <h3>Architecture temps réel</h3>
-        <p>J'ai opté pour un polling intelligent ajusté selon la fréquence des mises à jour, avec fallback sur WebSocket pour les alertes critiques. Cette approche hybride garantit des données à jour sans surcharger le serveur, tout en assurant une réactivité immédiate pour les notifications importantes.</p>
+        <p>J'opterai pour un polling intelligent ajusté selon la fréquence des mises à jour, avec fallback sur WebSocket pour les alertes critiques. Cette approche hybride garantit des données à jour sans surcharger le serveur, tout en assurant une réactivité immédiate pour les notifications importantes.</p>
 
         <h3>Graphiques interactifs</h3>
-        <p>Chart.js a été choisi pour sa flexibilité et ses plugins de zoom, tooltips et légendes interactives. Chaque graphique est cliquable pour le drill-down, permettant aux utilisateurs d'explorer les données en profondeur sans quitter le tableau de bord.</p>
+        <p>Chart.js sera choisi pour sa flexibilité et ses plugins de zoom, tooltips et légendes interactives. Chaque graphique est cliquable pour le drill-down, permettant aux utilisateurs d'explorer les données en profondeur sans quitter le tableau de bord.</p>
 
         <h3>Système d'alertes</h3>
         <p>Les seuils sont configurables par indicateur, offrant une personnalisation complète. Les notifications sont multiples : email, toast in-app et badge sur le dashboard, garantissant qu'aucune alerte critique ne passe inaperçue.</p>
 
-        <h2>Résultats</h2>
-        <p>Le dashboard a été déployé avec succès et les métriques ont été suivies pendant les 3 mois suivant le lancement :</p>
+        <h2>Objectifs attendus</h2>
+        <p>Le dashboard sera déployé, puis les métriques seront suivies pendant les 3 mois suivant le lancement :</p>
         <ul>
           <li><strong>Temps de génération de rapports :</strong> −70 %</li>
           <li><strong>Prise de décision rapide :</strong> +45 %</li>
@@ -359,9 +359,9 @@
           <p>"DataViz a transformé notre façon de prendre des décisions. Les données en temps réel nous permettent d'agir plus vite et avec plus de confiance."</p>
         </blockquote>
 
-        <h2>Réflexions</h2>
-        <p>La visualisation de données est un domaine où la performance est cruciale. Un dashboard lent est un dashboard inutilisé. J'ai dû optimiser chaque requête SQL et mettre en place un système de cache intelligent pour garantir une expérience fluide même avec des volumes de données importants.</p>
-        <p>Si je devais le refaire, j'aurais aimé intégrer dès le départ un système de Machine Learning pour la détection d'anomalies automatique. C'est une fonctionnalité que le client a demandée en phase de recette et qui aurait pu être anticipée lors de la découverte.</p>
+        <h2>Axes d'amélioration</h2>
+        <p>La visualisation de données est un domaine où la performance est cruciale. Un dashboard lent est un dashboard inutilisé. Je devrai optimiser chaque requête SQL et mettre en place un système de cache intelligent pour garantir une expérience fluide même avec des volumes de données importants.</p>
+        <p>Pour aller plus loin, j'aimerais intégrer dès le départ un système de Machine Learning pour la détection d'anomalies automatique. Cette fonctionnalité pourra être anticipée dès la phase de découverte si elle devient prioritaire.</p>
 
         <hr/>
         <p><em>Intéressé par un projet similaire ? <a href="index.html#contact">Contactez-moi</a> — je suis disponible pour de nouvelles missions.</em></p>

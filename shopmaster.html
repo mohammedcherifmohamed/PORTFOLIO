@@ -201,9 +201,9 @@
       <!-- ═══ ARTICLE BODY ═══ -->
       <div class="max-w-3xl mx-auto px-6 pb-4 prose-cs">
 
-        <h2>Le brief</h2>
-        <p>ShopMaster est une plateforme e-commerce destinée aux PME souhaitant vendre en ligne. Le client disposait d'une ancienne boutique Shopify aux fonctionnalités limitées, avec des performances médiocres et une expérience utilisateur frustrante. L'objectif était de migrer vers une solution sur mesure offrant plus de flexibilité, de performance et de contrôle.</p>
-        <p>Ma mission était claire : concevoir et développer une plateforme e-commerce complète avec gestion des stocks, panier dynamique, paiement sécurisé et un tableau de bord administrateur. Le budget était fixe et le délai de livraison était de 8 semaines.</p>
+        <h2>Le scénario</h2>
+        <p>ShopMaster est une plateforme e-commerce destinée aux PME souhaitant vendre en ligne. Le client disposait d'une ancienne boutique Shopify aux fonctionnalités limitées, avec des performances médiocres et une expérience utilisateur frustrante. L'objectif sera de migrer vers une solution sur mesure offrant plus de flexibilité, de performance et de contrôle.</p>
+        <p>Ma mission sera claire : concevoir et développer une plateforme e-commerce complète avec gestion des stocks, panier dynamique, paiement sécurisé et un tableau de bord administrateur. Le budget restera fixe et le délai de livraison prévu sera de 8 semaines.</p>
 
         <blockquote>
           <p>"Nous perdions des clients à cause de la lenteur de notre site et du manque de fonctionnalités. Nous avions besoin d'une solution professionnelle et évolutive."</p>
@@ -211,16 +211,16 @@
 
         <h2>Découverte & recherche</h2>
         <h3>Analyse des besoins</h3>
-        <p>J'ai mené une série d'entretiens avec l'équipe commerciale et les clients existants pour comprendre les fonctionnalités essentielles. Les sessions ont duré 45 minutes chacune, combinant tests d'utilisabilité et entretiens post-tâche. Résultats clés :</p>
+        <p>Je mènerai une série d’entretiens avec l'équipe commerciale et les clients existants pour comprendre les fonctionnalités essentielles. Les sessions dureront 45 minutes chacune, combinant tests d'utilisabilité et entretiens post-tâche. Points clés attendus :</p>
         <ul>
-          <li>Le processus de paiement comptait 6 étapes — trop long, entraînant un taux d'abandon élevé</li>
-          <li>La gestion des stocks était manuelle et source d'erreurs fréquentes</li>
-          <li>Le tableau de bord ne fournissait pas de données exploitables sur les ventes</li>
+          <li>Le processus de paiement actuel compte 6 étapes — trop long, entraînant un taux d'abandon élevé</li>
+          <li>La gestion des stocks actuelle est manuelle et source d'erreurs fréquentes</li>
+          <li>Le tableau de bord actuel ne fournit pas de données exploitables sur les ventes</li>
           <li>Les clients souhaitaient un suivi des commandes en temps réel</li>
         </ul>
 
         <h3>Audit de l'existant</h3>
-        <p>J'ai réalisé un audit complet de l'ancienne plateforme Shopify et identifié 18 problèmes critiques : temps de chargement excessif (6,2 s), navigation confuse, absence de recherche avancée, et processus de checkout non optimisé pour mobile.</p>
+        <p>Je réaliserai un audit complet de l'ancienne plateforme Shopify et j'identifierai 18 problèmes critiques : temps de chargement excessif (6,2 s), navigation confuse, absence de recherche avancée, et processus de checkout non optimisé pour mobile.</p>
 
       </div>
 
@@ -229,13 +229,13 @@
         <div class="reveal photo-frame w-full h-56 md:h-80 rounded-2xl">
           <img src="https://images.unsplash.com/photo-1581472723648-909f4851d4ae?w=1200&q=80" alt="Existing dashboard audit — heuristic violations mapped" loading="lazy"/>
         </div>
-        <p class="img-caption">Existing dashboard with heuristic violations annotated during the audit phase.</p>
+        <p class="img-caption">Audit prévu de l'interface existante avec annotation des problèmes d'ergonomie.</p>
       </div>
 
       <div class="max-w-3xl mx-auto px-6 pb-4 prose-cs">
 
         <h2>Stratégie de conception</h2>
-        <p>Basé sur la recherche, j'ai construit la solution autour de trois principes :</p>
+        <p>Basé sur la recherche, je construirai la solution autour de trois principes :</p>
 
       </div>
 
@@ -270,7 +270,7 @@
 
         <h2>Processus</h2>
         <h3>Semaine 1–2 · Architecture & modélisation</h3>
-        <p>J'ai commencé par modéliser l'ensemble des entités : produits, catégories, commandes, clients, stocks. J'ai conçu le schéma de base de données MySQL avec les relations nécessaires, puis défini l'architecture Laravel avec les contrôleurs, modèles et migrations.</p>
+        <p>Je commencerai par modéliser l'ensemble des entités : produits, catégories, commandes, clients, stocks. Je concevrai le schéma de base de données MySQL avec les relations nécessaires, puis je définirai l'architecture Laravel avec les contrôleurs, modèles et migrations.</p>
 
       </div>
 
@@ -321,7 +321,7 @@
         <div class="reveal photo-frame w-full h-56 md:h-80 rounded-2xl">
           <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80" alt="High-fidelity Figma screens — new dashboard layout" loading="lazy"/>
         </div>
-        <p class="img-caption">Captures d'écran finales : catalogue produits, panier et tableau de bord administrateur.</p>
+        <p class="img-caption">Aperçus prévus : catalogue produits, panier et tableau de bord administrateur.</p>
       </div>
 
       <!-- Before / After split -->
@@ -346,16 +346,16 @@
 
         <h2>Décisions clés</h2>
         <h3>Architecture Laravel robuste</h3>
-        <p>J'ai opté pour Laravel avec une architecture MVC bien structurée : modèles Eloquent pour les relations complexes, contrôleurs RESTful pour l'API, et Blade pour les vues avec des composants réutilisables. Le système d'authentification intégré de Laravel a permis une gestion sécurisée des comptes clients et administrateurs.</p>
+        <p>J'opterai pour Laravel avec une architecture MVC bien structurée : modèles Eloquent pour les relations complexes, contrôleurs RESTful pour l'API, et Blade pour les vues avec des composants réutilisables. Le système d'authentification intégré de Laravel permettra une gestion sécurisée des comptes clients et administrateurs.</p>
 
         <h3>Checkout optimisé en 3 étapes</h3>
-        <p>Plutôt qu'un processus de paiement long et fastidieux, j'ai conçu un checkout en 3 étapes fluide : panier → informations de livraison → paiement. Chaque étape est validée en temps réel avec AJAX, offrant une expérience utilisateur moderne et sans rechargement de page.</p>
+        <p>Plutôt qu'un processus de paiement long et fastidieux, je concevrai un checkout en 3 étapes fluide : panier → informations de livraison → paiement. Chaque étape est validée en temps réel avec AJAX, offrant une expérience utilisateur moderne et sans rechargement de page.</p>
 
         <h3>Tableau de bord administrateur complet</h3>
         <p>Le dashboard admin permet de gérer les produits, les commandes, les clients et les stocks en un seul endroit. Avec des graphiques de ventes interactifs, des notifications en temps réel et des exports PDF/CSV, l'administrateur a une vision complète de son activité.</p>
 
-        <h2>Résultats</h2>
-        <p>La plateforme a été livrée en 8 semaines, exactement dans les délais. Les métriques ont été suivies pendant les 2 mois suivant le lancement.</p>
+        <h2>Objectifs attendus</h2>
+        <p>La plateforme sera livrée en 8 semaines, dans les délais prévus. Les métriques seront suivies pendant les 2 mois suivant le lancement.</p>
         <ul>
           <li><strong>Augmentation des ventes :</strong> +40 %</li>
           <li><strong>Taux d'abandon du panier :</strong> −22 %</li>
@@ -369,9 +369,9 @@
           <p>"Yurei a complètement transformé notre activité en ligne. La nouvelle plateforme est rapide, intuitive et nos ventes ont explosé. Un travail exceptionnel et un vrai professionnel."</p>
         </blockquote>
 
-        <h2>Réflexions</h2>
-        <p>La plus grande leçon de ce projet : un site e-commerce performant ne repose pas seulement sur un beau design, mais sur une architecture solide et une expérience utilisateur fluide. Investir dans un développement sur mesure avec Laravel a permis d'obtenir des résultats bien supérieurs à ceux d'une solution clé en main.</p>
-        <p>Si je devais le refaire, j'aurais aimé consacrer plus de temps à la phase de tests utilisateurs avec de vrais clients. Huit semaines est un délai serré pour un projet de cette envergure, mais grâce à une méthodologie agile et une communication constante avec le client, nous avons livré un produit qui dépasse les attentes.</p>
+        <h2>Axes d'amélioration</h2>
+        <p>La plus grande leçon de ce projet : un site e-commerce performant ne repose pas seulement sur un beau design, mais sur une architecture solide et une expérience utilisateur fluide. Investir dans un développement sur mesure avec Laravel permettra d'obtenir des résultats bien supérieurs à ceux d'une solution clé en main.</p>
+        <p>Pour aller plus loin, j'aimerais consacrer plus de temps à la phase de tests utilisateurs avec de vrais clients. Huit semaines est un délai serré pour un projet de cette envergure, mais grâce à une méthodologie agile et une communication constante avec le client, nous livrerons un produit qui dépasse les attentes.</p>
 
         <hr/>
         <p><em>Intéressé par un projet similaire ? <a href="index.html#contact">Contactez-moi</a> — je suis disponible pour de nouvelles missions.</em></p>
