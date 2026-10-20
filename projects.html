@@ -74,7 +74,7 @@
       <div class="max-w-6xl mx-auto px-6 relative z-10">
         <p class="reveal text-xs font-medium text-accent tracking-widest uppercase mb-3">Portfolio</p>
         <h1 class="reveal font-display font-bold text-5xl md:text-6xl text-zinc-900 dark:text-white leading-tight mb-4">Tous les projets</h1>
-        <p class="reveal text-lg text-zinc-500 dark:text-zinc-400 max-w-xl leading-relaxed mb-8">Un aperçu complet de mon travail : sites e-commerce, ERP, applications web et sites vitrines.</p>
+        <p class="reveal text-lg text-zinc-500 dark:text-zinc-400 max-w-xl leading-relaxed mb-8">Un aperçu complet de mon travail : sites e-commerce, ERP, applications web, sites vitrines et projets IA.</p>
         <div class="reveal flex flex-wrap gap-2">
           <template x-for="f in filterOptions" :key="f.value">
             <button
@@ -169,23 +169,25 @@
         filter: 'all',
 
         filterOptions: [
-          { value: 'all',       label: 'Tous (9)' },
+          { value: 'all',       label: 'Tous (10)' },
           { value: 'ecommerce', label: 'E-commerce' },
           { value: 'erp',       label: 'ERP' },
           { value: 'vitrine',   label: 'Site vitrine' },
           { value: 'app',       label: 'Application web' },
+          { value: 'ai',        label: 'IA' },
         ],
 
         allProjects: [
-          { id:1,  title:'ShopMaster — E-commerce',    category:'ecommerce', categoryLabel:'E-commerce',     tags:['E-commerce'],    year:'2025', desc:'Plateforme e-commerce complète : gestion des stocks, panier dynamique, paiement Stripe et dashboard admin.',    img:'ecom1.png',  url:'shopmaster.html' },
-          { id:2,  title:'ProERP — Gestion',            category:'erp',       categoryLabel:'ERP',            tags:['ERP'],             year:'2024', desc:'ERP sur mesure : gestion des stocks, facturation, commandes et rapports analytiques.',                            img:'dashboard1.webp', url:'proerp.html' },
-          { id:3,  title:'StudioDesign — Vitrine',      category:'vitrine',   categoryLabel:'Site vitrine',   tags:['Vitrine'],   year:'2024', desc:'Site vitrine moderne pour studio de design. Design épuré et animations fluides.',                               img:'ecom2.png', url:'studiodesign.html' },
-          { id:4,  title:'CasaNova — Immobilier',       category:'vitrine',   categoryLabel:'Site vitrine',   tags:['Vitrine','Immobilier'],              year:'2024', desc:'Site vitrine pour agence immobilière. Recherche de biens, filtres avancés et visites virtuelles.',                img:'immobilier.jpg',  url:'casanova.html' },
-          { id:5,  title:'DataViz — Analytics',         category:'app',       categoryLabel:'Application web', tags:['Dashboard'],        year:'2024', desc:'Application de visualisation de données avec tableaux de bord interactifs et rapports en temps réel.',           img:'dashboard.webp', url:'dataviz.html' },
-          { id:6,  title:'GreenShop — E-commerce Bio',  category:'ecommerce', categoryLabel:'E-commerce',     tags:['E-commerce'],      year:'2023', desc:'Boutique en ligne pour produits biologiques. Paiement sécurisé, gestion des commandes et avis clients.',        img:'ecom1.png',  url:'greenshop.html' },
-          { id:7,  title:'HealthCare — App Santé',      category:'app',       categoryLabel:'Application web', tags:['Application','Santé'],          year:'2023', desc:'Application de gestion pour cabinet médical : rendez-vous, dossiers patients et facturation.',                   img:'health.jpg', url:'healthcare.html' },
-          { id:8,  title:'CommuPro — Agence Digitale',  category:'vitrine',   categoryLabel:'Site vitrine',   tags:['Vitrine','Agence'],                  year:'2023', desc:'Site vitrine pour agence de communication digitale. Portfolio interactif et formulaire de contact.',           img:'https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80', url:'commupro.html' },
-          { id:9,  title:'FurniShop — E-commerce',      category:'ecommerce', categoryLabel:'E-commerce',     tags:['E-commerce'],              year:'2023', desc:'Site e-commerce pour mobilier. Optimisation du checkout et réduction de l\'abandon de panier.',                img:'furniture.webp',  url:'furnishop.html' },
+          { id:1,  title:'AI Ticket Support Router',     category:'ai',        categoryLabel:'IA',            tags:['IA','Agents'],   year:'2025', desc:'Système multi-agents autonomes avec LangChain et Gemini : classification de tickets, routage vers agents spécialisés et tool-calling pour actions réelles.', img:'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=700&q=80', url:'ai-ticket-router.html' },
+          { id:2,  title:'ShopMaster — E-commerce',    category:'ecommerce', categoryLabel:'E-commerce',     tags:['E-commerce'],    year:'2025', desc:'Plateforme e-commerce complète : gestion des stocks, panier dynamique, paiement Stripe et dashboard admin.',    img:'ecom1.png',  url:'shopmaster.html' },
+          { id:3,  title:'ProERP — Gestion',            category:'erp',       categoryLabel:'ERP',            tags:['ERP'],             year:'2024', desc:'ERP sur mesure : gestion des stocks, facturation, commandes et rapports analytiques.',                            img:'dashboard1.webp', url:'proerp.html' },
+          { id:4,  title:'StudioDesign — Vitrine',      category:'vitrine',   categoryLabel:'Site vitrine',   tags:['Vitrine'],   year:'2024', desc:'Site vitrine moderne pour studio de design. Design épuré et animations fluides.',                               img:'ecom2.png', url:'studiodesign.html' },
+          { id:5,  title:'CasaNova — Immobilier',       category:'vitrine',   categoryLabel:'Site vitrine',   tags:['Vitrine','Immobilier'],              year:'2024', desc:'Site vitrine pour agence immobilière. Recherche de biens, filtres avancés et visites virtuelles.',                img:'immobilier.jpg',  url:'casanova.html' },
+          { id:6,  title:'DataViz — Analytics',         category:'app',       categoryLabel:'Application web', tags:['Dashboard'],        year:'2024', desc:'Application de visualisation de données avec tableaux de bord interactifs et rapports en temps réel.',           img:'dashboard.webp', url:'dataviz.html' },
+          { id:7,  title:'GreenShop — E-commerce Bio',  category:'ecommerce', categoryLabel:'E-commerce',     tags:['E-commerce'],      year:'2023', desc:'Boutique en ligne pour produits biologiques. Paiement sécurisé, gestion des commandes et avis clients.',        img:'ecom1.png',  url:'greenshop.html' },
+          { id:8,  title:'HealthCare — App Santé',      category:'app',       categoryLabel:'Application web', tags:['Application','Santé'],          year:'2023', desc:'Application de gestion pour cabinet médical : rendez-vous, dossiers patients et facturation.',                   img:'health.jpg', url:'healthcare.html' },
+          { id:9,  title:'CommuPro — Agence Digitale',  category:'vitrine',   categoryLabel:'Site vitrine',   tags:['Vitrine','Agence'],                  year:'2023', desc:'Site vitrine pour agence de communication digitale. Portfolio interactif et formulaire de contact.',           img:'https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80', url:'commupro.html' },
+          { id:10, title:'FurniShop — E-commerce',      category:'ecommerce', categoryLabel:'E-commerce',     tags:['E-commerce'],              year:'2023', desc:'Site e-commerce pour mobilier. Optimisation du checkout et réduction de l\'abandon de panier.',                img:'furniture.webp',  url:'furnishop.html' },
         ],
 
         get visibleCount() {
